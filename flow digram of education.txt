@@ -1,0 +1,84 @@
+Start
+|
+|--- Input Data
+|    |
+|    |--- User Query (Conversational Input)
+|    |
+|    |--- Input Data for Report Generation
+|    |    |
+|    |    |--- Preprocessing
+|    |    |    |
+|    |    |    |--- Tokenization
+|    |    |    |--- Text to Numerical Data
+|    |    |    |--- Other Preprocessing Steps
+|    |    |
+|    |    |--- Feature Engineering (if applicable)
+|    |         |
+|    |         |--- Custom Feature Extraction
+|    |         |--- GPT Embeddings (Conversational Component)
+|
+|--- GPT Transformer (Conversational Component)
+|    |
+|    |--- User Query Processing
+|    |    |
+|    |    |--- GPT Embeddings
+|    |
+|    |--- Additional Layers (if needed)
+|    |
+|    |--- GPT Output
+|
+|--- CNN Layers (Local Pattern Recognition)
+|    |
+|    |--- Convolutional Layers
+|    |    |
+|    |    |--- Filter Sizes: [Specify]
+|    |    |--- Number of Filters: [Specify]
+|    |    |--- Activation Functions: [Specify]
+|    |
+|    |--- Max Pooling Layers
+|    |
+|    |--- Additional Layers (if needed)
+|
+|--- RNN Layers (Sequential Dependency Modeling)
+|    |
+|    |--- RNN/GRU/LSTM Layers
+|    |    |
+|    |    |--- Hidden Units: [Specify]
+|    |    |--- Activation Functions: [Specify]
+|    |
+|    |--- Additional Layers (if needed)
+|
+|--- Concatenation Layer
+|    |
+|    |--- Combines GPT Output, CNN Output, and RNN Output
+|
+|--- Decoder (Report Generation Component)
+|    |
+|    |--- Hidden Units: [Specify]
+|    |--- Activation Functions: [Specify]
+|    |--- Output Layer (e.g., Softmax)
+|    |--- Dropout: [Specify]
+|
+|--- Optional Modules
+|    |
+|    |--- Attention Mechanism (if needed)
+|    |    |
+|    |    |--- Attention Type: [Specify]
+|    |    |--- Attention Units: [Specify]
+|
+|--- Loss Calculation (Report Generation Component)
+|    |
+|    |--- Custom Loss Function (if needed)
+|
+|--- Training (Report Generation Component)
+|    |
+|    |--- Optimization Algorithm: [Specify] (e.g., Adam)
+|    |--- Learning Rate: [Specify]
+|    |--- Batch Size: [Specify]
+|    |--- Number of Epochs: [Specify]
+|
+|--- Inference (Report Generation Component)
+|    |
+|    |--- Generate Text (Token by Token)
+|
+|--- End
